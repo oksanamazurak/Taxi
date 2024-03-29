@@ -1,0 +1,70 @@
+body {
+  background-color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+}
+
+img {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  left: 17%;
+  border-radius: 15px;
+}
+
+.container {
+  width: 400px;
+  margin: 50px;
+  margin-left: 55%;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #969696;
+}
+.container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #414040;
+}
+.container form {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.container form input[type=tel],
+.container form input[type=password], .container form input[type=text] {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+.container form button {
+  background-color: #d3fb7d;
+  color: #000000;
+  border: none;
+  width: 85%;
+  height: 40px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.container form button {
+  display: block;
+  margin: 40px auto;
+}
+
+.signin-container {
+  background-color: #ffffff;
+  width: 400px;
+  margin-left: 55%;
+  border-radius: 8px;
+  height: 60px;
+  border: 1px solid #969696;
+}
+.signin-container p {
+  padding-top: 5px;
+  text-align: center;
+  color: #414040;
+}
+
+/*# sourceMappingURL=sign_up.css.map */

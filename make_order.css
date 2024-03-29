@@ -1,0 +1,120 @@
+header {
+  background-color: #343434;
+  height: 60px;
+  width: 100%;
+  text-align: center;
+}
+header .header-container {
+  display: flex;
+  align-items: center;
+}
+header .header-container img {
+  padding-top: 14px;
+  padding-left: 20px;
+  width: 125px;
+  margin-right: 85%;
+  border-radius: 10px;
+}
+
+body {
+  display: flex;
+  flex-direction: column; /* Ensure children stack vertically */
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  margin: 0; /* Center children horizontally */
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+  padding-bottom: 40px;
+}
+
+.container {
+  width: 300px;
+  height: 450px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  border: 1px solid #ced4da;
+}
+.container h1 {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: black;
+}
+.container form .form-group {
+  margin-bottom: 10px;
+}
+.container form .form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #495057;
+}
+.container form .form-group input[type=text],
+.container form .form-group input[type=tel],
+.container form .form-group input[type=date],
+.container form .form-group input[type=time] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.container form .form-group input[type=date],
+.container form .form-group input[type=time] {
+  cursor: pointer;
+}
+.container form .form-group input[type=text]::placeholder,
+.container form .form-group input[type=date]::placeholder,
+.container form .form-group input[type=time]::placeholder,
+.container form .form-group select::placeholder {
+  color: #b1b1b2; /* Placeholder text color */
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px; /* Italicize the placeholder text */
+}
+.container form .checkbox-group {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Align items to the end (right side) */
+  margin-bottom: 10px;
+}
+.container form button {
+  background-color: #ffa500;
+  color: #fff;
+  border: none;
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+.container form button:hover {
+  background-color: #cc8400;
+}
+.container select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #525252;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+iframe {
+  width: 65%;
+  height: 100vh;
+  border: none;
+  padding-right: 40px;
+  padding-top: 20px;
+}
+
+/*# sourceMappingURL=make_order.css.map */
